@@ -1,11 +1,11 @@
 import {Text, View} from 'react-native';
 
-const Kingslist = (props) => {
-    const {id, name, reignDate} = props
-    Kingslist[0]
+const Kingslist = ({kingsList}) => {
+    const {id, name, reignDate} = kingsList[0];
+    
     return(
         <View>
-            <Text>{id} {name} {reignDate}</Text>
+            <Text>{id}, {name}, {reignDate}</Text>
         </View>
     )
 }

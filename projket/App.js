@@ -11,7 +11,7 @@ export default function App() {
   ]
   return (
     <View style={styles.container}>
-      <Kingslist kingslist={kings}/>
+      <Kingslist kingsList={kings}/>
     </View>
   )
 }
