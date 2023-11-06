@@ -1,11 +1,11 @@
-import {Text, View} from 'react-native' ;
+import { Text, View } from 'react-native';
 
-const polishKing = () =>{
-    return(
+const PolishKing = (props) => {
+    return (
         <View>
-            <Text>Polish King is comming</Text>
+            <Text>Polish King {props.name} is coming</Text>
         </View>
     )
 }
 
-export default polishKing;
+export default PolishKing;
