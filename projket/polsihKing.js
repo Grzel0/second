@@ -1,9 +1,9 @@
 import { Text, View } from 'react-native';
 
-const PolishKing = (props) => {
+const PolishKing = ({name}) => {
     return (
         <View>
-            <Text>Polish King {props.name} is coming</Text>
+            <Text>Polish King {name} is coming</Text>
         </View>
     )
 }
